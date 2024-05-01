@@ -1,8 +1,7 @@
 # CS623-Project
 
 Product, Depot and Stock relations/ tables are stored using PostgreSQL. 
-T
-he following image shows the data that is stored in the tables.
+The following image shows the data that is stored in the tables.
 
 <img width="241" alt="image" src="https://github.com/annafu1/CS623-Project/assets/104175541/6dac76bb-45f4-4052-b8f9-da9fa391bc03">
 
