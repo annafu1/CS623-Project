@@ -36,6 +36,13 @@ try:
         INSERT INTO product (prod_id, pname, price)
         VALUES ('pp1', 'tape', 2.5) 
     """)
+    
+    #Insert the new pp1 to Stock table
+    cur.execute("""
+                UPDATE stock
+    SET prod_id = 'pp1'
+    WHERE prod_id = 'p1'
+                """)
 
     # Commit the transaction if everything is successful
     conn.commit()
