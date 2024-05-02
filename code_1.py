@@ -47,9 +47,9 @@ try:
     # Insert the new pp1 to Stock table
     cur.execute("""
         INSERT INTO stock (prod_id, dep_id, quantity)
-        VALUES ('pp1', 'd1', 100000),
+        VALUES ('pp1', 'd1', 1000),
                ('pp1', 'd2', -100),
-               ('pp1', 'd4', 12000)
+               ('pp1', 'd4', 1200)
     """)
 
     # Commit the transaction if everything is successful
