@@ -1,5 +1,4 @@
 import psycopg2
-from tabulate import tabulate
 
 # Connect to the PostgreSQL database
 conn = psycopg2.connect(
